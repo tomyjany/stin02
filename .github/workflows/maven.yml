@@ -16,6 +16,10 @@ on:
 
   pull_request:
     branches: [ "main" ]
+    
+permissions:
+  contents: write
+  security-events: write
 
 jobs:
   build:
